@@ -1,0 +1,36 @@
+
+body{
+  background-image:url("morning.jpg");
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.container{
+  background-color: black;
+  margin: 10%;
+  opacity: .7;
+  height: 80vh;
+  border-radius:60px;
+}
+.container .navbar li{
+ float: left;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-top: 20px;
+ list-style:none;
+}
+.container .navbar li a{
+ color: white;
+ text-decoration: none;
+}
+.container .navbar li:hover a{
+ color:rgb(0, 255, 106);
+ 
+}
+.mainBody img{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
